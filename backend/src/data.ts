@@ -1,4 +1,5 @@
 import { Product } from './types/Product'
+
 export const sampleProducts: Product[] = [
   {
     name: 'Nike Slim shirt',
@@ -6,10 +7,10 @@ export const sampleProducts: Product[] = [
     category: 'Shirts',
     image: '../images/p1.jpg',
     price: 120,
-    countInStock: 0,
+    countInStock: 10,
     brand: 'Nike',
-    rating: 5,
-    numReviews: 20,
+    rating: 4.5,
+    numReviews: 10,
     description: 'high quality shirt',
   },
   {
@@ -30,7 +31,7 @@ export const sampleProducts: Product[] = [
     category: 'Pants',
     image: '../images/p3.jpg',
     price: 220,
-    countInStock: 100,
+    countInStock: 0,
     brand: 'Lacoste',
     rating: 4.8,
     numReviews: 17,
